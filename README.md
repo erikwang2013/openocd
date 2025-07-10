@@ -20,9 +20,11 @@ sudo make install
 ```
 如果出现libjaylink错误，到src/jtag/drivers/libjaylink目录下执行编译安装
 
-···
+```
+
 ./autogen.sh
 ./configure
 make -j$(nproc)
 sudo make install
-···
+
+```
